@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "brody-killaura",
+  "version": "${version}",
+  "name": "Brody KillAura",
+  "description": "AI-driven kill aura with HVH mode and anti-anticheat layer. Built by Brody.",
+  "authors": [
+    "Brody"
+  ],
+  "contact": {
+    "homepage": "https://github.com/jasonmodding",
+    "sources": "https://github.com/jasonmodding"
+  },
+  "license": "MIT",
+  "icon": "assets/brody-killaura/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.brody.aura.KillAuraMod"
+    ]
+  },
+  "mixins": [
+    "killaura.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

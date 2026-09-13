@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.brody.aura.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "ClientCommonNetworkHandlerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "PlayerEntityMixin",
+    "PlayerMoveC2SPacketAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
